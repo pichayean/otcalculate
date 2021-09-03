@@ -35,7 +35,7 @@ namespace OTCalculate.Controllers
             else
             {
                 ViewBag.OT = null;//new List<Employee>();
-                ViewBag.OTTOTAL = null;// new List<ProductivityOT>();
+                ViewBag.OTTOTAL = null;
             }
             return View();
         }
